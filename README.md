@@ -2,7 +2,7 @@
 
   # version: version-e7d81637d42c4b23
 
-**discord: readprocessmemory**
+**discord: readprocessmem**
 
 **i like reversing, internal offsets and roblox research.**
 
