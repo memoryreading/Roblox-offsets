@@ -24,15 +24,15 @@ namespace Offsets
         const uintptr_t ByteCodeSize = REBASE(0x0);
     }
 
-    namespace Coroutine
+    namespace coroutine
     {
-        const uintptr_t coroutine.create = REBASE(0x555AB30);
-        const uintptr_t coroutine.running = REBASE(0x555B3B0);
-        const uintptr_t coroutine.status = REBASE(0x55594C0);
-        const uintptr_t coroutine.wrap = REBASE(0x555B0E0);
-        const uintptr_t coroutine.yield = REBASE(0x555B350);
-        const uintptr_t coroutine.isyieldable = REBASE(0x555B420);
-        const uintptr_t coroutine.close = REBASE(0x555B4B0);
+        const uintptr_t create = REBASE(0x555AB30);
+        const uintptr_t running = REBASE(0x555B3B0);
+        const uintptr_t status = REBASE(0x55594C0);
+        const uintptr_t wrap = REBASE(0x555B0E0);
+        const uintptr_t yield = REBASE(0x555B350);
+        const uintptr_t isyieldable = REBASE(0x555B420);
+        const uintptr_t close = REBASE(0x555B4B0);
     }
 
     namespace DataModel
